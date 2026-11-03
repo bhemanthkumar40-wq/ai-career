@@ -1,0 +1,6 @@
+{
+  "name": "CareerPilot AI",
+  "description": "AI-powered career & job platform with explainable placement readiness, job discovery, resume match analysis, and interactive career assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

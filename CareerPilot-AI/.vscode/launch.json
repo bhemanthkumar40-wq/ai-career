@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI: Run CareerPilot AI",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "backend.app.main:app",
+        "--reload",
+        "--port",
+        "8000"
+      ],
+      "jinja": true,
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Seed Sample Database",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/seed_data.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
